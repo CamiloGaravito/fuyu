@@ -6,16 +6,17 @@ const app = express();
 
 const get_message = require("./config/message");
 const sequelize = require("./config/database");
+const logger = require("./config/logger");
 
 const init_app = async () => {
   try {
     await sequelize.authenticate();
 
     app.listen(port, () => {
-      console.log(get_message("fay4", { port }));
+      logger.info(get_message("fay4", { port }));
     });
   } catch (error) {
-    console.error(get_message("fay3"), error);
+    logger.error(get_message("fay3"), error);
     process.exit(1);
   }
 };

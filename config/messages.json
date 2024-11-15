@@ -1,11 +1,12 @@
 {
   "messages": {
     "fay1": "🚀 Conexión exitosa con la base de datos en el entorno '${env}'.",
-    "fay3": "🔴 Error al conectar con la base de datos: ",
     "fay4": "🟩 Servidor corriendo en el puerto '${port}'."
   },
   "warnings": {},
   "errors": {
-    "fay2": "🌡 ENV no está definido en el archivo .env"
+    "fay2": "ENV no está definido en el archivo .env",
+    "fay3": "Error al conectar con la base de datos: ",
+    "fay5": "El dialecto debe ser 'mysql' para usar MySQL."
   }
 }

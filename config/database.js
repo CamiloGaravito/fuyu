@@ -3,10 +3,11 @@ const dbConfig = require("./dbconfig");
 const env = require("./env");
 
 const get_message = require("./message");
+const logger = require("./logger");
 const { username, password, database, host, dialect, logging } = dbConfig[env];
 
 if (dialect !== "mysql") {
-  throw new Error('El dialecto debe ser "mysql" para usar MySQL.');
+  logger.error(get_message("fay5"));
 }
 
 const sequelize = new Sequelize(database, username, password, {
@@ -21,9 +22,9 @@ const sequelize = new Sequelize(database, username, password, {
 const connection = async () => {
   try {
     await sequelize.authenticate();
-    console.log(get_message("fay1", { env }));
+    logger.info(get_message("fay1", { env }));
   } catch (error) {
-    console.error(get_message("fay3"), error);
+    logger.error(get_message("fay3"), error);
     process.exit(1);
   }
 };

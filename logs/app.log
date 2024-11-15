@@ -1,0 +1,24 @@
+15-11-2024 17:13:54 [[32minfo[39m]: 🟩 Servidor corriendo en el puerto '3000'.
+15-11-2024 17:14:37 [[32minfo[39m]: 🟩 Servidor corriendo en el puerto '3000'.
+15-11-2024 17:15:22 [[32minfo[39m]: 🟩 Servidor corriendo en el puerto '3000'.
+15-11-2024 17:16:28 [[32minfo[39m]: 🟩 Servidor corriendo en el puerto '3000'.
+15-11-2024 17:17:39 [[32minfo[39m]: 🚀 Conexión exitosa con la base de datos en el entorno 'development'.
+15-11-2024 17:17:39 [[32minfo[39m]: 🟩 Servidor corriendo en el puerto '3000'.
+15-11-2024 17:17:50 [[32minfo[39m]: 🚀 Conexión exitosa con la base de datos en el entorno 'development'.
+15-11-2024 17:17:50 [[32minfo[39m]: 🟩 Servidor corriendo en el puerto '3000'.
+15-11-2024 17:17:58 [[32minfo[39m]: 🚀 Conexión exitosa con la base de datos en el entorno 'development'.
+15-11-2024 17:17:58 [[32minfo[39m]: 🟩 Servidor corriendo en el puerto '3000'.
+15-11-2024 17:19:33 [[32minfo[39m]: 🚀 Conexión exitosa con la base de datos en el entorno 'development'.
+15-11-2024 17:19:33 [[32minfo[39m]: 🟩 Servidor corriendo en el puerto '3000'.
+15-11-2024 17:23:41 [[32minfo[39m]: 🚀 Conexión exitosa con la base de datos en el entorno 'development'.
+15-11-2024 17:23:41 [[32minfo[39m]: 🟩 Servidor corriendo en el puerto '3000'.
+15-11-2024 17:26:14 [[32minfo[39m]: 🚀 Conexión exitosa con la base de datos en el entorno 'development'.
+15-11-2024 17:26:14 [[32minfo[39m]: 🟩 Servidor corriendo en el puerto '3000'.
+15-11-2024 17:28:39 [[32minfo[39m]: 🚀 Conexión exitosa con la base de datos en el entorno 'development'.
+15-11-2024 17:28:39 [[32minfo[39m]: 🟩 Servidor corriendo en el puerto '3000'.
+15-11-2024 17:29:58 [[31merror[39m]: Error al conectar con la base de datos:  Access denied for user 'root'@'localhost' (using password: YES)
+15-11-2024 17:30:18 [[32minfo[39m]: 🚀 Conexión exitosa con la base de datos en el entorno 'development'.
+15-11-2024 17:30:18 [[32minfo[39m]: 🟩 Servidor corriendo en el puerto '3000'.
+15-11-2024 17:32:12 [[32minfo[39m]: 🚀 Conexión exitosa con la base de datos en el entorno 'development'.
+15-11-2024 17:32:12 [[32minfo[39m]: 🟩 Servidor corriendo en el puerto '3000'.
+15-11-2024 17:32:19 [[31merror[39m]: Error al conectar con la base de datos:  Access denied for user 'root'@'localhost' (using password: YES)
