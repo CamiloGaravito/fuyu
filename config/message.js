@@ -1,4 +1,4 @@
-const messages = require("./messages.json");
+const messages = require("../json/messages.json");
 
 const get_message = (key, variables = {}) => {
   let message =

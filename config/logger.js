@@ -18,7 +18,7 @@ const transports = [
 if (process.env.ENV === "development") {
   transports.push(
     new winston.transports.File({
-      filename: "logs/app.log",
+      filename: "app/logs/app.log",
       format: logFormat,
       level: "info",
     })

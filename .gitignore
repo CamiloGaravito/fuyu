@@ -1,5 +1,5 @@
 .env
 package.json
 package-lock.json
+app/logs/app.log
 node_modules/
-logs/app.log
