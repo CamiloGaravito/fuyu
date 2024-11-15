@@ -5,7 +5,7 @@ const logger = require("./logger");
 const env = process.env.ENV;
 
 if (!env) {
-  logger.error(get_message("fay2"));
+  logger.warning(get_message("fay2"));
 }
 
 module.exports = env;
