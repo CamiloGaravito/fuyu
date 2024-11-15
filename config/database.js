@@ -1,6 +1,6 @@
 const { Sequelize } = require("sequelize");
-const dbConfig = require("./dbconfig");
-const env = require("./env");
+const dbConfig = require("./db/dbconfig");
+const env = require("./db/env");
 
 const get_message = require("./message");
 const logger = require("./logger");
