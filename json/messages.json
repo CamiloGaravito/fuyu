@@ -2,9 +2,9 @@
   "messages": {
     "fay1": "🚀 Conexión exitosa con la base de datos en el entorno '${env}'.",
     "fay4": "✅ Servidor corriendo en el puerto '${port}'.",
-    "fay6": "✅ Modelo generado exitosamente: '${cliCommand}'.",
-    "fay7": "✅ Migración generada exitosamente: '${cliCommand}'.",
-    "fay8": "✅ Seeder generado exitosamente: '${cliCommand}'."
+    "fay6": "✅ Modelo generado exitosamente: '${sequelizeCommand}'.",
+    "fay7": "✅ Migración generada exitosamente: '${sequelizeCommand}'.",
+    "fay8": "✅ Seeder generado exitosamente: '${sequelizeCommand}'."
   },
   "warnings": {
     "fay2": "⚠ ENV no está definido en el archivo .env"
