@@ -5,6 +5,7 @@ const get_message = require("./message");
 const routes = require("../routes/web");
 
 const port = process.env.PORT;
+const host = process.env.DB_HOST;
 
 const app = express();
 app.use(express.json());
@@ -16,6 +17,7 @@ const start_server = async () => {
 
     app.listen(port, () => {
       logger.info(get_message("fay4", { port }));
+      logger.info(get_message("fby1", { host, port }));
     });
   } catch (error) {
     logger.error(get_message("fay3"), error);

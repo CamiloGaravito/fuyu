@@ -4,7 +4,8 @@
     "fay4": "✅ Servidor corriendo en el puerto '${port}'.",
     "fay6": "✅ Modelo generado exitosamente: '${sequelizeCommand}'.",
     "fay7": "✅ Migración generada exitosamente: '${sequelizeCommand}'.",
-    "fay8": "✅ Seeder generado exitosamente: '${sequelizeCommand}'."
+    "fay8": "✅ Seeder generado exitosamente: '${sequelizeCommand}'.",
+    "fby1": "🐳 Servidor corriendo en http://${host}:${port}"
   },
   "warnings": {
     "fay2": "⚠ ENV no está definido en el archivo .env"
