@@ -2,9 +2,13 @@ const express = require("express");
 const logger = require("./logger");
 const sequelize = require("./database");
 const get_message = require("./message");
+const routes = require("../routes/web");
+
 const port = process.env.PORT;
 
 const app = express();
+app.use(express.json());
+app.use("/", routes);
 
 const start_server = async () => {
   try {
