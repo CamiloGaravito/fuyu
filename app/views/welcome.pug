@@ -1,0 +1,23 @@
+extends layouts/main
+
+block content
+  .container.mx-auto.p-4
+    header.bg-blue-600.text-white.text-center.p-6
+      h1.text-3xl.font-bold Bienvenido a Mi Aplicación
+      p.text-lg.mt-2 Explora nuestras funcionalidades de manera fácil y rápida.
+
+    main(class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8")
+      .card.bg-white.p-6.shadow-lg.rounded-lg
+        h2.text-2xl.font-semibold.text-center.text-blue-600 Funcionalidad 1
+        p.mt-4.text-center Un breve resumen de lo que hace esta funcionalidad.
+      
+      .card.bg-white.p-6.shadow-lg.rounded-lg
+        h2.text-2xl.font-semibold.text-center.text-blue-600 Funcionalidad 2
+        p.mt-4.text-center Un breve resumen de lo que hace esta funcionalidad.
+
+      .card.bg-white.p-6.shadow-lg.rounded-lg
+        h2.text-2xl.font-semibold.text-center.text-blue-600 Funcionalidad 3
+        p.mt-4.text-center Un breve resumen de lo que hace esta funcionalidad.
+
+    footer.bg-gray-800.text-white.text-center.p-4.mt-8
+      p © 2024 Mi Aplicación | Todos los derechos reservados.

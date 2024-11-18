@@ -1,0 +1,14 @@
+[
+  "autoprefixer",
+  "nodemon",
+  "postcss",
+  "postcss-cli",
+  "sequelize-cli",
+  "tailwindcss",
+  "dotenv",
+  "express",
+  "mysql2",
+  "pug",
+  "sequelize",
+  "winston"
+]

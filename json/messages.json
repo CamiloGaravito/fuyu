@@ -5,7 +5,12 @@
     "fay6": "✅ Modelo generado exitosamente: '${sequelizeCommand}'.",
     "fay7": "✅ Migración generada exitosamente: '${sequelizeCommand}'.",
     "fay8": "✅ Seeder generado exitosamente: '${sequelizeCommand}'.",
-    "fby1": "🐳 Servidor corriendo en http://${host}:${port}"
+    "fby1": "🐳 Servidor corriendo en http://${host}:${port}",
+    "fby2": "🐉 Proyecto listo para usar.",
+    "fby3": "🦋 Configurando el proyecto...",
+    "fby4": "🦝 Iniciando instalación de dependencias...",
+    "fby5": "Instalando ${dep}...",
+    "fby6": "🐳 ¡Todas las dependencias se instalaron correctamente!"
   },
   "warnings": {
     "fay2": "⚠ ENV no está definido en el archivo .env"
@@ -13,6 +18,7 @@
   "errors": {
     "fay3": "Error al conectar con la base de datos: ",
     "fay5": "El dialecto debe ser 'mysql' para usar MySQL.",
-    "fay9": "Error al ejecutar comando de Sequelize CLI: '${error}'."
+    "fay9": "Error al ejecutar comando de Sequelize CLI: '${error}'.",
+    "fby7": "Error durante la instalación: "
   }
 }
